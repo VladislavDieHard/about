@@ -2,7 +2,7 @@
     <div>
         <Menubar :model="items">
             <template #start>
-                <img alt="logo" src="../assets/logo.png" height="40" class="p-mr-2">
+                <img alt="logo" src="../assets/logo.png" height="40" class="p-mr-2" >
             </template>
         </Menubar>
     </div>
@@ -10,9 +10,10 @@
 
 <script>
     import Menubar from 'primevue/menubar';
+    import BadgeDirective from 'primevue/badgedirective';
 
     export default {
-        components: {Menubar},
+        components: {Menubar, BadgeDirective },
         name: 'HeaderLayout',
         data() {
             return {
@@ -20,7 +21,7 @@
                     {
                         label:'Home',
                         icon:'pi pi-fw pi-home',
-                        to: {name: 'home'}
+                        to: {name: 'home'},
                     },
                     {
                         label:'Projects',

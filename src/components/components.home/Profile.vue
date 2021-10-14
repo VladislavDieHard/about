@@ -1,7 +1,7 @@
 <template>
     <div class="profile">
         <h1>Владислав Звягин</h1>
-        <ImagePreview src="https://sun9-72.userapi.com/impf/YZbDqAyZQ4HSgPXp6gSRf4u78x39bM03XnVhwg/6gI9T77_rRw.jpg?size=2560x2560&quality=95&sign=90c01d96e649d4afcb1f21c9263e6b4c&type=album" alt="Image" width="250" preview />
+        <ImagePreview src="https://sun9-72.userapi.com/impf/YZbDqAyZQ4HSgPXp6gSRf4u78x39bM03XnVhwg/6gI9T77_rRw.jpg?size=2560x2560&quality=95&sign=90c01d96e649d4afcb1f21c9263e6b4c&type=album" alt="Image" width="200" preview />
         <p>Мужчина, 22 года, родился 14 августа 1999</p>
         <span>
             <h3>Контакты:</h3>
