@@ -29,9 +29,9 @@
                         to: {name: 'projects'}
                     },
                     {
-                        label:'About',
+                        label:'Apis',
                         icon:'pi pi-fw pi-star',
-                        to: {name: 'about'}
+                        to: {name: 'apis'}
                     }
                 ]
             }
